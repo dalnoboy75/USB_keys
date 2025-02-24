@@ -7,6 +7,7 @@ KeysTable::KeysTable(QWidget *parent)
 {
     ui->setupUi(this);
     ui->keysTable->resizeColumnsToContents();
+    ui->keysTable->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
 
 }
 

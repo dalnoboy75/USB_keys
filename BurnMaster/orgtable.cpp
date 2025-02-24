@@ -7,6 +7,8 @@ OrgTable::OrgTable(QWidget *parent)
 {
     ui->setupUi(this);
     ui->orgTable->resizeColumnsToContents();
+    ui->orgTable->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
+
 }
 OrgTable::~OrgTable()
 {
